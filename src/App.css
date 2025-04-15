@@ -1,5 +1,34 @@
 body {
+  padding: 2rem;
+  height: 100vh;
+}
+
+.App {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.puppyList {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-decoration: underline;
+}
+
+.featuredPuppy {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin-top: 5rem;
+  padding-bottom: 1.5rem;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  color: darkcyan;
+  border: 2px solid darkcyan;
+  border-radius: 3rem;
 }
